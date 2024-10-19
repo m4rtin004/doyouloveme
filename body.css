@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative; /* Add position relative to wrapper */
+}
+
+.gif {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.btn-group {
+    position: relative; /* Added for positioning */
+}
+
+.btn-group button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.yes-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: #218838;
+}
+
+.no-btn {
+    background-color: #dc3545;
+    color: white;
+    position: absolute; /* Position absolute for moving */
+    transition: transform 0.2s;
+}
+
+.no-btn:hover {
+    background-color: #c82333;
+}
